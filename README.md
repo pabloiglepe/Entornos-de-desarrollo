@@ -9,9 +9,8 @@ Ejercicio UD02.5. Proyecto Maven - Eclipse
 
 <ul>
 <li>Una vez resuelto el algortimo, he procedido a crear el proyecto en Maven siguiendo las reglas de nombrado dadas en el ennunciado. En mi caso lo he creado por terminal usando el comando:
-`mvn archetype:generate -DgroupId=es.iessoterohernandez.daw.endes -DartifactId=fibonacci -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false`
 </li>
-</ul>
+`mvn archetype:generate -DgroupId=es.iessoterohernandez.daw.endes -DartifactId=fibonacci -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false`
 		Luego de crear el proyecto he desarrollado el código fuente en la clase Fibonacci.java que se encuentra dentro del src/main/java
 
 	- Para generar el artefacto: una vez he desarrollado el código fuente, por terminal le he indicado la ruta del proyecto fibonacci, he generado el artefacto. Para ello he usado los siguientes comandos por terminal:
