@@ -14,17 +14,23 @@ Ejercicio UD02.5. Proyecto Maven - Eclipse
 3. Para el ejercicio 3:
 	-Para instalar el proyecto con la clase Fibonacci en el repositorio local, en primer luegar me he colocado sobre el proyecto con la clase Fibonacci: `cd C:\Users\trendingpc\Desktop\WP_Entorno\fibonacci` y después de eso, lo he instalado ejecutando el comando: `mvn install`.
 
- 	-Para crearr el nuevo proyecto llamado fibonacciMain, he ejecutado el siguiente comando: `mvn archetype:generate -DgroupId=es.iessoterohernandez.daw.endes -DartifactId=fibonacciMain -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false`, luego de eso, para utilizar el artefacto de la clase fibonacci, hay que agregar la dependencia del proyecto fibonacci al proyecto fibonacciMain, para ello abrimos el archivo pom.xml y copiamos lo siguiente:
+ 	-Para crear el nuevo proyecto llamado fibonacciMain, he ejecutado el siguiente comando: `mvn archetype:generate -DgroupId=es.iessoterohernandez.daw.endes -DartifactId=fibonacciMain -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false`, luego de eso, para utilizar el artefacto de la clase fibonacci, hay que agregar la dependencia del proyecto fibonacci al proyecto fibonacciMain, para ello abrimos el archivo pom.xml y copiamos lo siguiente:
 
 ```xml
-   <dependency>
-<groupId>es.iessoterohernandez.daw.endes</groupId>
-<artifactId>fibonacci</artifactId>
-<version>1.0-SNAPSHOT</version>
-</dependency>
+<dependencies>
+   	<dependency>
+		<groupId>es.iessoterohernandez.daw.endes</groupId>
+		<artifactId>fibonacci</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</dependency>
 ...
-<7dependencies>
+</dependencies>
 ```
+
+-Una vez añadida la dependencia al pom.xml de fibonacciMain, ya podemos lo que queramos de fibonacci en fibonacciMain.
+
+4. 
+
    
 
 
