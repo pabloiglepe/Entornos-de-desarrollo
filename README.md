@@ -27,7 +27,7 @@ Ejercicio UD02.5. Proyecto Maven - Eclipse
 </dependencies>
 ```
 
-	-Una vez añadida la dependencia al pom.xml de fibonacciMain, he utilizado el código fuennte de fibonacci en fibonacciMain para resolvver el ejercicio.
+   -Una vez añadida la dependencia al pom.xml de fibonacciMain, he utilizado el código fuennte de fibonacci en fibonacciMain para resolvver el ejercicio.
 
 4. Lo que he hecho en primer lugar es informarme sobre como se utiliza la librería iText y sobre cómo se implementaría en un proyecto maven. he aprendido gracias a un video de YouTube (he usado la versión 5 de dicha librería para realizar el programa): `https://www.youtube.com/watch?v=PO4mwNzpwJA&ab_channel=DiscoDurodeRoer`.
 	-Para crear un nuevo proyecto llamado HelloWorldPdf, he ejecutado el siguiente comando por terminal siguienndo las reglas de nombrado dadas: `mvn archetype:generate -DgroupId=es.iessoterohernandez.daw.endes -DartifactId=fibonacciMain -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false`. Después de crear el proyecto, he copiado las dependencias de la librería iText que he sacado de su página oficial:
